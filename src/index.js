@@ -20,7 +20,7 @@ app.use("/uploads", express.static("uploads"));
 app.listen(8080, () => console.log(`server is running in port 8080`));
 
 mongoose
-  .connect("mongodb+srv://salma:123@cluster0.sgilj.mongodb.net/User", {
+  .connect("mongodb://0.0.0.0:27017//User", {
     useUnifiedTopology: true,
     useNewUrlParser: true
   })
