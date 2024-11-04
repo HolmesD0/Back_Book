@@ -9,8 +9,8 @@ const regex = /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]{6,}$/g;
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "booksswap123@gmail.com",
-    pass: "booksswap"
+    user: "",
+    pass: ""
   }
 });
 
